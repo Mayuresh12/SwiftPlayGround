@@ -11,13 +11,17 @@ func longestPalindrome(_ s: String) -> String {
     var h = s.count - 1
     while (h > l) {
         if (myArray[l] != myArray[h]) {
-            print("Is not a palindrome = \(s)")
+            print("\(s) is not a palindrome ")
             return ""
         }
         l = l + 1
         h =  h - 1
     }
-    print("Is Palindrome")
+    print("\(s) is a palindrome ")
     return s
 }
-print(longestPalindrome("a"))
+longestPalindrome("aba")
+longestPalindrome("nitin")
+longestPalindrome("1221")
+longestPalindrome("a1ba")
+
