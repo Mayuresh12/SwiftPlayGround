@@ -9,4 +9,7 @@ public class ListNode {
      }
 }
 
+public class node {
+    
+}
 
