@@ -9,6 +9,14 @@ public class ListNode {
      }
 }
 
+class Solution {
+    func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
+        var A = l1
+        print (A?.val)
+        return l1
+    }
+}
+
 public class Node {
     var value: String
     var next: Node?
@@ -76,4 +84,19 @@ Alphabets.append(value: "B")
 Alphabets.append(value: "C")
 Alphabets.append(value: "D")
 Alphabets.append(value: "E")
+Alphabets.append(value: "F")
+Alphabets.append(value: "G")
+Alphabets.append(value: "H")
+Alphabets.append(value: "I")
+Alphabets.append(value: "J")
+Alphabets.append(value: "K")
+Alphabets.append(value: "L")
+Alphabets.append(value: "M")
+Alphabets.append(value: "N")
+Alphabets.append(value: "O")
+Alphabets.append(value: "P")
+Alphabets.append(value: "Q")
+Alphabets.append(value: "R")
+Alphabets.append(value: "S")
+Alphabets.append(value: "T")
 print(Alphabets)
