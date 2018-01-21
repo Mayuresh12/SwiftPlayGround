@@ -5,9 +5,10 @@
         <page name='TwoSumLeetcode'/>
         <page name='Untitled Page'/>
         <page name='AddTwoNumbersLeetCode'/>
-        <page name='Untitled Page 3'/>
         <page name='LongestPalindromicSubstringLeetCode'/>
         <page name='Strings'/>
         <page name='if Statements'/>
+        <page name='Function'/>
+        <page name='Tuples'/>
     </pages>
 </playground>
