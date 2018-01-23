@@ -10,5 +10,6 @@
         <page name='if Statements'/>
         <page name='Function'/>
         <page name='Tuples'/>
+        <page name='Loops'/>
     </pages>
 </playground>
