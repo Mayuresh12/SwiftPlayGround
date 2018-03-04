@@ -11,3 +11,9 @@ while i<10 {
     i = i + 1
 }
 print("-----")
+
+var j = 0
+repeat{
+    print(j)
+    j += 1
+}while j < 10
