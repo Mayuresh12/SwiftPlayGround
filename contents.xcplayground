@@ -12,5 +12,6 @@
         <page name='Tuples'/>
         <page name='Loops'/>
         <page name='Functions'/>
+        <page name='LoopsRange'/>
     </pages>
 </playground>
