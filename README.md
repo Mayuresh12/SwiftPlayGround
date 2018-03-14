@@ -4,3 +4,4 @@ Swift is Strongly typed language
  -Variable cannot start with special symbols,whitespaces,characters etc..
  -Variable name should begin with alphabet or underscore
  #Tuple
+let coord  = (x:1,y:-4)
