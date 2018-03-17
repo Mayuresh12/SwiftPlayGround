@@ -5,3 +5,4 @@ Swift is Strongly typed language
  -Variable name should begin with alphabet or underscore
  #Tuple
 let coord  = (x:1,y:-4)
+let X_Cord = coord.x
