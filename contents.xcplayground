@@ -14,5 +14,6 @@
         <page name='Functions'/>
         <page name='LoopsRange'/>
         <page name='Switch'/>
+        <page name='Funtions and Optionals'/>
     </pages>
 </playground>
