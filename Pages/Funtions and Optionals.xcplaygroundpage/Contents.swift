@@ -55,3 +55,17 @@ let (product, quotient) = results
 product
 quotient
 
+/*
+Change `calculateFullName` to return a tuple containing both the full name and the length of the name. You can find a string’s length by using the following syntax: `string.characters.count`. Use this function to determine the length of your own full name.
+*/
+
+// TODO: Write solution here
+func calculateFullName2 (_ firstName: String, _ lastName: String)-> (fullName : String , length : Int){
+    let fullName = firstName + " " + lastName
+    return (fullName, fullName.count - 1)
+}
+let myResult = calculateFullName2("Mayuresh", "")
+let (Name,lenght) = myResult
+Name
+lenght
+
