@@ -62,7 +62,8 @@ Change `calculateFullName` to return a tuple containing both the full name and t
 // TODO: Write solution here
 func calculateFullName2 (_ firstName: String, _ lastName: String)-> (fullName : String , length : Int){
     let fullName = firstName + " " + lastName
-    return (fullName, fullName.count - 1)
+    return (fullName, fullName.characters.count) // chanrecter is deprecated in Swift 4
+    //return (fullName, fullName.count - 1) // Also this can be used
 }
 let myResult = calculateFullName2("Mayuresh", "")
 let (Name,lenght) = myResult
