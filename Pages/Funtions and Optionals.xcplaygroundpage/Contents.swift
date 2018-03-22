@@ -70,3 +70,72 @@ let (Name,lenght) = myResult
 Name
 lenght
 
+
+// Mark : Overloading
+
+func printMultipleOf(multiplier : Int , value : Int = 1){
+    print("\(multiplier) * \(value) = \(multiplier * value)")
+}
+
+printMultipleOf(multiplier: 12, value: 12)
+
+func printMultiplierOf(_ multiplier: Int ,and value : Int = 1 ){
+    print("\(multiplier) * \(value) = \(multiplier * value)")
+}
+printMultiplierOf(12, and: 23)
+
+
+
+///
+func getValue()  -> Int{
+    return 12
+}
+
+func getValue() -> String{
+    return "Mayuresh"
+}
+
+let value : String = getValue()
+let value2 : Int = getValue()
+
+// the parameters in the function are constant you use "inout"
+func increamentandPrint (_ value : inout Int){
+    value += 1
+    print( value)
+}
+var myVar = 2
+increamentandPrint(&myVar)
+
+
+// assiging function to a variable
+func add(_ a : Int, _ b : Int) -> Int{
+    return (a + b)
+}
+
+var function = add
+
+function(12,12)
+
+func subtract(_ a :Int , _ b : Int) -> Int {
+    return(a - b)
+}
+function = subtract
+
+function(12, 12)
+
+
+// assigning functions in function
+
+func printResult(_ function :(Int,Int) -> (Int), _ a :Int ,_ b : Int){
+    let result = function(a,b)
+    print(result)
+}
+
+printResult(subtract, 12, 12)
+
+
+
+
+
+
+
