@@ -9,4 +9,4 @@ let X_Cord = coord.x
 
 // Range
 Optionals
-ternary
+ternary operation
