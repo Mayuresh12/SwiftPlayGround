@@ -62,7 +62,7 @@ func maybePrintSides(shape : String){
     }
 }
 
-//Using guard statements
+//Using guard statements you can use them for if statements
 func maybePrintSides2 (shape :  String){
     guard let sides = calculateNumberOfSide(shape: shape) else {
     print("I don't know the number of sides for \(shape)")
