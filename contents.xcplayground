@@ -16,5 +16,6 @@
         <page name='Switch'/>
         <page name='Funtions and Optionals'/>
         <page name='Optionals'/>
+        <page name='Arrays'/>
     </pages>
 </playground>
